@@ -4,7 +4,7 @@ class Ship
   @@all = []
 
   def initialize(attributes)
-    all << self
+    @@all << self
   end
 
   def self.all
